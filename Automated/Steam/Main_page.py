@@ -4,8 +4,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import allure
 import time
+from Logger import Logger
 from Base import Base
-# from Logger import Logger
 
 
 class Main_page(Base):
@@ -37,8 +37,8 @@ class Main_page(Base):
     """Methods"""
 
     def search_in_header(self):
-        # with allure.step("search_in_header"):
-            # Logger.add_start_step(method="search_in_header")
+        with allure.step("search_in_header"):
+            Logger.add_start_step(method="search_in_header")
             self.driver.get(self.url)
             self.driver.maximize_window()
             self.get_current_url()
@@ -48,4 +48,4 @@ class Main_page(Base):
             self.get_current_url()
             self.assert_url("https://store.steampowered.com/search/?term=Gothic")
             self.get_screenshot()
-            # Logger.add_end_step(url=self.driver.current_url, method="search_in_header")
+            Logger.add_end_step(url=self.driver.current_url, method="search_in_header")

@@ -1,0 +1,33 @@
+
+-----
+Test: Test_adding_the_game_gothic_2_gold_edition_to_the_cart.py::test_adding_the_game_gothic_2_gold_edition_to_the_cart (call)
+Start time: 2025-03-29 17:15:56.088239
+Start name method: search_in_header
+
+End time: 2025-03-29 17:15:59.422608
+End name method: search_in_header
+URL: https://store.steampowered.com/search/?term=Gothic
+
+-----
+
+-----
+Test: Test_adding_the_game_gothic_2_gold_edition_to_the_cart.py::test_adding_the_game_gothic_2_gold_edition_to_the_cart (call)
+Start time: 2025-03-29 17:15:59.422608
+Start name method: search_on_search_page
+
+End time: 2025-03-29 17:16:02.327279
+End name method: search_on_search_page
+URL: https://store.steampowered.com/app/39510/Gothic_II_Gold_Edition/
+
+-----
+
+-----
+Test: Test_adding_the_game_gothic_2_gold_edition_to_the_cart.py::test_adding_the_game_gothic_2_gold_edition_to_the_cart (call)
+Start time: 2025-03-29 17:16:02.338275
+Start name method: add_card_to_cart
+
+End time: 2025-03-29 17:16:05.115116
+End name method: add_card_to_cart
+URL: https://store.steampowered.com/cart
+
+-----

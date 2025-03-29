@@ -28,5 +28,5 @@ class Base():
     """Method: get_screenshot"""
 
     def get_screenshot(self):
-        now_time = datetime.datetime.now().strftime("%Y.%m.%d-%H.%M.%S")
+        now_time = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
         self.driver.save_screenshot(f".\\Screenshots\\{now_time}.png")
