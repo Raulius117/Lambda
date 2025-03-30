@@ -1,0 +1,22 @@
+
+-----
+Test: Test_finding_game_halo_3_in_search.py::test_finding_game_halo_3_in_search (call)
+Start time: 2025-03-30 09:57:42.025120
+Start name method: search_in_header
+
+End time: 2025-03-30 09:57:49.592434
+End name method: search_in_header
+URL: https://www.xbox.com/ru-ru/Search/Results?q=Halo
+
+-----
+
+-----
+Test: Test_finding_game_halo_3_in_search.py::test_finding_game_halo_3_in_search (call)
+Start time: 2025-03-30 09:57:49.592434
+Start name method: search_on_search_page
+
+End time: 2025-03-30 09:57:53.037567
+End name method: search_on_search_page
+URL: https://www.xbox.com/ru-RU/games/store/halo-3/BSXZVK24CMR3/0001
+
+-----
