@@ -47,7 +47,7 @@ class Card_page(Base):
             self.get_current_url()
             self.click_button_add_to_cart()
             self.click_button_open_basket()
-            time.sleep(1)
+            time.sleep(3)
             self.get_current_url()
             self.assert_url("https://store.steampowered.com/cart")
             self.assert_word(self.get_name_gothic_2_gold_edition(), "Gothic II: Gold Edition")

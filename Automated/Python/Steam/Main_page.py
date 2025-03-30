@@ -44,7 +44,7 @@ class Main_page(Base):
             self.get_current_url()
             self.input_field_search("Gothic")
             self.enter_field_search()
-            time.sleep(1)
+            time.sleep(3)
             self.get_current_url()
             self.assert_url("https://store.steampowered.com/search/?term=Gothic")
             self.get_screenshot()

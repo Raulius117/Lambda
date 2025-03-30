@@ -43,7 +43,7 @@ class Search_page(Base):
             self.get_current_url()
             self.click_checkbox_windows()
             self.click_link_gothic_2_gold_edition()
-            time.sleep(1)
+            time.sleep(3)
             self.get_current_url()
             self.assert_url("https://store.steampowered.com/app/39510/Gothic_II_Gold_Edition/")
             self.get_screenshot()
